@@ -1,0 +1,895 @@
+repo_name: Manojkumardheenadhayalan/LLMChat
+report_id: 7b412d44adcd0260ff872090aee56e70
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-25T11:18:24+00:00'
+requested_by: c0sogi
+provider: github
+branch: master
+detected_tools_count: 69
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat
+  detection_source: Repo Metadata
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-23 11:38:48.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat
+  detection_source: Repo Metadata
+- name: FastAPI
+  description: A high performance, easy to learn, fast to code, ready for production
+    web framework
+  website_url: https://fastapi.tiangolo.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-04-20 04:08:37.000000000 Z
+- name: SQLAlchemy
+  description: The Python SQL Toolkit and Object Relational Mapper
+  website_url: http://www.sqlalchemy.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1839/q5uAkmy7.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-05-12 09:00:58.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-05-07 06:21:08.000000000 Z
+- name: Jupyter
+  description: Multi-language interactive computing environments.
+  website_url: http://jupyter.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Science Notebooks
+  image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat
+  detection_source: Repo Metadata
+- name: NumPy
+  description: Fundamental package for scientific computing with Python
+  website_url: http://www.numpy.org/
+  version: '1.24'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements-llama-cpp.txt
+  detection_source: requirements-llama-cpp.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-06-30 13:44:33.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat
+  detection_source: Repo Metadata
+- name: TensorFlow
+  description: Open Source Software Library for Machine Intelligence
+  website_url: https://www.tensorflow.org
+  version: 2.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/4717/FtFnqC38_400x400.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements-sentence-encoder.txt
+  detection_source: requirements-sentence-encoder.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-07-04 16:35:22.000000000 Z
+- name: Websockets
+  description: A technology that makes it possible to open a two-way interactive communication
+  website_url: https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4220/LNPwoiWi_400x400.jpg
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-23 11:38:48.000000000 Z
+- name: scikit-learn
+  description: Easy-to-use and general-purpose machine learning in Python
+  website_url: http://scikit-learn.org/stable/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/2657/scikit-learn-logo.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements-sentence-encoder.txt
+  detection_source: requirements-sentence-encoder.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-07-04 16:35:22.000000000 Z
+- name: PyJWT
+  description: JSON Web Token implementation in Python
+  package_url: https://pypi.org/project/PyJWT
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19883/default_3863c7bb51d307217c188e059f67ca417c51efe3.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: PyMySQL
+  description: Pure Python MySQL Driver
+  package_url: https://pypi.org/project/PyMySQL
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19880/default_3863c7bb51d307217c188e059f67ca417c51efe3.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: aiofiles
+  description: File support for asyncio
+  package_url: https://pypi.org/project/aiofiles
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20183/default_3d320a0aa731f16ceb0e7b6999ca7f7cd784aee2.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-05-07 06:21:08.000000000 Z
+- name: aiomysql
+  description: MySQL driver for asyncio
+  package_url: https://pypi.org/project/aiomysql
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-06 12:39:29.000000000 Z
+- name: attrs
+  description: Classes Without Boilerplate
+  package_url: https://pypi.org/project/attrs
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19857/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-05-07 06:21:08.000000000 Z
+- name: bcrypt
+  description: Modern password hashing for your software and your servers
+  package_url: https://pypi.org/project/bcrypt
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20031/default_242158225818ea25f0ab9031a46e17f8ff8246cb.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: boto3
+  description: The AWS SDK for Python
+  package_url: https://pypi.org/project/boto3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19840/default_1c41e593803157c668b26f27387160254f0f5371.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: botocore
+  description: Low-level, data-driven core of boto 3
+  package_url: https://pypi.org/project/botocore
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19884/default_b8be3f20d4af87021ae3618d5c50b72c985ea31f.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: cachetools
+  description: Extensible memoizing collections and decorators
+  package_url: https://pypi.org/project/cachetools
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19950/default_611a1328f69b729fac0a7b8bf87ff04e8ce35e17.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: certifi
+  description: Python package for providing Mozilla's CA Bundle
+  package_url: https://pypi.org/project/certifi
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19849/default_75c38a39b9f0062814489e2ec2cbfca0ca15d9ba.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: cffi
+  description: Foreign Function Interface for Python calling C code
+  package_url: https://pypi.org/project/cffi
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19909/default_67f813d4aac73d024261bcfded6ef2b918e384a0.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: chardet
+  description: Universal encoding detector for Python 2 and 3
+  package_url: https://pypi.org/project/chardet
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19856/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: click
+  description: Composable command line interface toolkit
+  package_url: https://pypi.org/project/click
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19830/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: cryptography
+  description: Cryptography is a package which provides cryptographic recipes and
+    primitives to Python developers
+  package_url: https://pypi.org/project/cryptography
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19850/default_db2ab2702f70e20c272f6ce65251108fb2b8f1ea.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: cssselect
+  description: Cssselect parses CSS3 Selectors and translates them to XPath 1.0
+  package_url: https://pypi.org/project/cssselect
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20109/default_534fc53c55ef7fbc50263daa8ea6618be3c2b37d.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: dnspython
+  description: DNS toolkit
+  package_url: https://pypi.org/project/dnspython
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20249/default_47b8ee8db82e43d9eef35923435bd8cc855f3a1b.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-06-20 08:29:19.000000000 Z
+- name: email-validator
+  description: A robust email syntax and deliverability validation library for Python
+    2.x/3.x
+  package_url: https://pypi.org/project/email-validator
+  license: CC0-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: h11
+  description: A pure-Python
+  package_url: https://pypi.org/project/h11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: httptools
+  description: A collection of framework independent HTTP protocol utils
+  package_url: https://pypi.org/project/httptools
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-05-03 10:04:50.000000000 Z
+- name: httpx
+  description: The next generation HTTP client
+  package_url: https://pypi.org/project/httpx
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20315/default_5f4e928dbcb1c4db4050881fc2e0229785fc931c.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-05-03 10:04:50.000000000 Z
+- name: idna
+  description: Internationalized Domain Names in Applications
+  package_url: https://pypi.org/project/idna
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19863/default_f24e00e4cb7620e436f9d06e0305070e1335922a.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: iniconfig
+  description: Brain-dead simple config-ini parsing
+  package_url: https://pypi.org/project/iniconfig
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: itsdangerous
+  description: Various helpers to pass data to untrusted environments and back
+  package_url: https://pypi.org/project/itsdangerous
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19989/default_b1f1fc9c4c59a78443018e01395203ba8c61dcde.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-05-19 02:54:44.000000000 Z
+- name: jmespath
+  description: JSON Matching Expressions
+  package_url: https://pypi.org/project/jmespath
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19993/default_1ae269f6aa26d7008f18ed620309f6ae89bbfa12.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: langchain
+  description: Building applications with LLMs through composability
+  package_url: https://pypi.org/project/langchain
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-04-30 11:17:15.000000000 Z
+- name: lxml
+  description: Powerful and Pythonic XML processing library combining libxml2/libxslt
+    with the ElementTree API
+  package_url: https://pypi.org/project/lxml
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19835/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: openai
+  description: The official Python library for the openai API
+  package_url: https://pypi.org/project/openai
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-05-03 10:04:50.000000000 Z
+- name: packaging
+  description: Core utilities for Python packages
+  package_url: https://pypi.org/project/packaging
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19894/default_f716e4bc541a9eb6e3f5b7a20d7c35355075b0b4.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: pdf2image
+  description: A wrapper around the pdftoppm and pdftocairo command line tools to
+    convert PDF to a PIL Image list
+  package_url: https://pypi.org/project/pdf2image
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-05-09 00:40:11.000000000 Z
+- name: pexpect
+  description: Pexpect allows easy control of interactive console applications
+  package_url: https://pypi.org/project/pexpect
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20078/default_1b6ee2407cdedc6ad8878ee707164428880e399a.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-05-20 08:06:34.000000000 Z
+- name: pluggy
+  description: Plugin and hook calling mechanisms for python
+  package_url: https://pypi.org/project/pluggy
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20041/default_77eeab9aff24a2723c1f19fed32966a15b17d874.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: premailer
+  description: Turns CSS blocks into style attributes
+  package_url: https://pypi.org/project/premailer
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20606/default_93d98333cbac8605aadd4d1a8ec739457f82f515.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: psutil
+  description: Cross-platform lib for process and system monitoring in Python
+  package_url: https://pypi.org/project/psutil
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19851/default_ac77a75c05474acf9389d56b1f5cc8241af4c384.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-05-29 12:35:24.000000000 Z
+- name: py
+  description: Library with cross-python path
+  package_url: https://pypi.org/project/py
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19962/default_61e35171bd9c0e5c5b88b2e4221ca242576ad8c0.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: pycparser
+  description: C parser in Python
+  package_url: https://pypi.org/project/pycparser
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20072/default_d7fc4eabe57370d13c2a8ad2f7f6bb876c96c66d.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: pydantic
+  description: Data validation and settings management using python 3.6 type hinting
+  package_url: https://pypi.org/project/pydantic
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: pyparsing
+  description: Python parsing module
+  package_url: https://pypi.org/project/pyparsing
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19881/default_2270bfab784e3d2c2d999d26b11ee478a9dad238.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: pytesseract
+  description: Python-tesseract is a python wrapper for Google's Tesseract-OCR
+  package_url: https://pypi.org/project/pytesseract
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20381/default_135579e95b2b6e219789a65aaca198fa4c877f7a.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-05-07 06:21:08.000000000 Z
+- name: pytest-asyncio
+  description: Pytest support for asyncio
+  package_url: https://pypi.org/project/pytest-asyncio
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-05-07 06:21:08.000000000 Z
+- name: python-dateutil
+  description: Extensions to the standard Python datetime module
+  package_url: https://pypi.org/project/python-dateutil
+  license: NRL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19833/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-06-20 08:29:19.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/project/python-dotenv
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-06-20 08:29:19.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-06-16 00:56:59.000000000 Z
+- name: s3transfer
+  description: An Amazon S3 Transfer Manager
+  package_url: https://pypi.org/project/s3transfer
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20042/default_15ea2ed8281eccea374610791971ca44800f16ec.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-05-09 00:40:11.000000000 Z
+- name: six
+  description: Python 2 and 3 compatibility utilities
+  package_url: https://pypi.org/project/six
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: starlette
+  description: The little ASGI library that shines
+  package_url: https://pypi.org/project/starlette
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20295/default_640b00772a7025571fa2ac02de971e76f9662aa9.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-06-30 13:44:33.000000000 Z
+- name: tabulate
+  description: Pretty-print tabular data
+  package_url: https://pypi.org/project/tabulate
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19864/default_7975a21f3bf03129dc3bc4168cf7cb7ee2cc14cc.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-05-29 12:35:24.000000000 Z
+- name: toml
+  description: Python Library for Tom's Obvious, Minimal Language
+  package_url: https://pypi.org/project/toml
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19912/default_bc82f0b22ca8fd942e21c317967f4ab61f43eb2c.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: torch
+  description: Tensors and Dynamic neural networks in Python with strong GPU acceleration
+  package_url: https://pypi.org/project/torch
+  version: 2.0.1
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20038/default_a7a70921d2d3189665c78015850dc968f41705a1.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements-exllama.txt
+  detection_source: requirements-exllama.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-07-04 16:35:22.000000000 Z
+- name: urllib3
+  description: HTTP library with thread-safe connection pooling
+  package_url: https://pypi.org/project/urllib3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
+- name: uvicorn
+  description: The lightning-fast ASGI server
+  package_url: https://pypi.org/project/uvicorn
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20431/default_f824837db22536768ec317b67275fa384fad7d47.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-05-17 11:46:17.000000000 Z
+- name: websockets
+  description: An implementation of the WebSocket Protocol
+  package_url: https://pypi.org/project/websockets
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19951/default_fbe690a687f1af7dc36ac3d526708be3294c4cc9.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-23 11:38:48.000000000 Z
+- name: yagmail
+  description: Yet Another GMAIL client
+  package_url: https://pypi.org/project/yagmail
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20727/default_ce4a377c6ada3db6767eb3c966642d2537ef1d8e.png
+  detection_source_url: https://github.com/Manojkumardheenadhayalan/LLMChat/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: c0sogi
+  last_updated_on: 2023-03-01 08:10:26.000000000 Z
